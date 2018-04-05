@@ -1,15 +1,29 @@
 [
   {
-    "name" : "kabooodle",
-    "title" : "Kabooodle.com",
-    "page_url" : "/projects/kabooodle.html",
+    "name" : "Kabooodle",
+    "url" : "kabooodle.com",
+    "permalink" : "/projects/kabooodle.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
-    "desc" : "Direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, and track and ship sales. Took about 6 months to complete and launch.",
+    "images" : [],
+    "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Took about 6 months to complete and launch.",
+    "highlights" : [
+      "Custom claiming system",
+      "Payment gateway for handling shipping charges and invoices",
+      "Custom shipping and sales receipts",
+      "USPS shipping integration and label creation",
+      "SMS Notifications",
+      "'Like' and 'Watch' items",
+      "Referral and rewards system",
+      "Custom sales analytics",
+      "Facebook integration",
+      "Direct messaging system",
+      "Inventory grouping (build outfits with your existing inventory)"
+    ],
     "technologies" : [
       "LEMP (Ubuntu, Nginx, MariaDB, PHP7)",
       "Laravel 5.x MVC Framework",
-      "Pusher - websocket, realtime push notifications",
-      "Webpack, ES6, Vue/x - Frontend components",
+      "Pusherapp - websocket, realtime push notifications",
+      "Vue/x - Frontend components",
       "Async queues with over 25 pipelines",
       "Keen.io: Track user and sale analytics",
       "AWS EC2 - Custom AMI instances, multizone",
@@ -41,17 +55,19 @@
   {
     "name" : "travelr",
     "title" : "Travelr",
-    "page_url" : "/projects/travelr.html",
+    "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "desc" : "A fictitious website used to search for and book reservations to planets.",
-    "links" : []
+    "links" : [],
+    "images" : []
   },
   {
     "name" : "oneupreviews",
     "title" : "1UpReviews",
-    "page_url" : "/projects/travelr.html",
+    "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "desc" : "A fictitious website used to search for and book reservations to planets.",
-    "links" : []
+    "links" : [],
+    "images" : []
   }
 ]
