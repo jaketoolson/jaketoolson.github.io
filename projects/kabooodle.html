@@ -1,0 +1,8 @@
+---
+layout: default
+title: projects
+category: projects
+---
+{% assign project = site.data.projects | where:'name','kabooodle'| first %}
+
+{{ project }}

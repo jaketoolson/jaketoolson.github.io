@@ -1,0 +1,25 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+
+$pmc: #AA00FF;
+
+a {
+  font-weight: 400;
+    &:link, &:visited {
+      color: #000;
+      border-bottom: 1px solid #ccc;
+    }
+    &:hover {
+      color: $pmc;
+    }
+}
+
+#sidebar-nav a {
+  border-bottom: none;
+  &.active {
+    color: $pmc;
+    font-weight: 900;
+  }
+}
