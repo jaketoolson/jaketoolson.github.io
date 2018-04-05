@@ -1,0 +1,38 @@
+
+
+
+<div class="card mb-3">
+    <img src="{{ project.img_card_src }}" class="card-img-top" >
+    <div class="card-body">
+        <h3 class="card-title">{{ project.name }}</h3>
+        <div class="card-text">
+            {{ project.desc }}
+        </div>
+        <hr>
+        {% if project.highlights.size > 0 %}
+        <h6>Highlights:</h6>
+        <ul>
+            {% for highlight in project.highlights %}
+            <li>{{ highlight }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if project.technologies.size > 0 %}
+        <h6>Technologies:</h6>
+        <ul>
+            {% for tech in project.technologies %}
+            <li>{{ tech }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+    {% if project.links.size > 0 %}
+    <div class="card-body border-top">
+        {% for link in project.links %}
+        <a href="{{ link.url }}" target="_blank" class="card-link">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
