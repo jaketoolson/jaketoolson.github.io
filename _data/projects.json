@@ -1,0 +1,57 @@
+[
+  {
+    "name" : "kabooodle",
+    "title" : "Kabooodle.com",
+    "page_url" : "/projects/kabooodle.html",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
+    "desc" : "Direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, and track and ship sales. Took about 6 months to complete and launch.",
+    "technologies" : [
+      "LEMP (Ubuntu, Nginx, MariaDB, PHP7)",
+      "Laravel 5.x MVC Framework",
+      "Pusher - websocket, realtime push notifications",
+      "Webpack, ES6, Vue/x - Frontend components",
+      "Async queues with over 25 pipelines",
+      "Keen.io: Track user and sale analytics",
+      "AWS EC2 - Custom AMI instances, multizone",
+      "AWS EC2 bastion - tunneling into system remote",
+      "AWS S3 - File storage with IA for thumbnails",
+      "AWS ELB - Public facing Load Balancer",
+      "AWS LAMBDA - Image thumbnail creation, file manipulation",
+      "AWS SQS - Cron task runner",
+      "AWS Cloudfront - CDN for all assets",
+      "AWS RDS - MariaDB, multizones",
+      "AWS ElastiCache - Redis cluster, multizone",
+      "AWS VPC - All services behind VPC private subnets"
+    ],
+    "links" : [
+      {
+        "title" : "Site",
+        "url" : "https://www.kabooodle.com"
+      },
+      {
+        "title" : "Video 1",
+        "url" : ""
+      },
+      {
+        "title" : "Video 2",
+        "url" : ""
+      }
+    ]
+  },
+  {
+    "name" : "travelr",
+    "title" : "Travelr",
+    "page_url" : "/projects/travelr.html",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
+    "desc" : "A fictitious website used to search for and book reservations to planets.",
+    "links" : []
+  },
+  {
+    "name" : "oneupreviews",
+    "title" : "1UpReviews",
+    "page_url" : "/projects/travelr.html",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
+    "desc" : "A fictitious website used to search for and book reservations to planets.",
+    "links" : []
+  }
+]

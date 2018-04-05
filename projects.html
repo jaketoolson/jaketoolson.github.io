@@ -1,0 +1,73 @@
+---
+layout: default
+category: projects
+---
+
+<div class="row">
+    {% for project in site.data.projects  %}
+    <div class="col-sm-6 mb-lg-4">
+        <div class="card" >
+            <img class="card-img-top" src="{{ project.img_card_src }}" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title"><a href="{{ project.page_url }}">{{ project.title }}</a></h4>
+                <p class="card-text">
+                    {{ project.desc }}
+                </p>
+            </div>
+            <div id="accordion">
+                <div class="card border-right-0 border-left-0 border-bottom-0">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Feature Highlights
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Custom claiming system</li>
+                                <li>Payment gateway for handling shipping charges and invoices</li>
+                                <li>USPS shipping integration and label creation</li>
+                                <li>SMS Notifications</li>
+                                <li>"Like" and "Watch" items</li>
+                                <li>Referral and rewards system</li>
+                                <li>Custom sales analytics</li>
+                                <li>Facebook integration</li>
+                                <li>Direct messaging system</li>
+                                <li>Inventory grouping (build outfits with your existing inventory)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Technologies Used
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                {% for tech in project.technologies %}
+                                <li>{{ tech }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body border-top">
+                {% for link in project.links %}
+                <a href="{{ link.url }}" target="_blank" class="card-link">{{ link.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
