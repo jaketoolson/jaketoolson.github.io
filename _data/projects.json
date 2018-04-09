@@ -47,16 +47,20 @@
         "url" : "https://www.kabooodle.com"
       },
       {
+        "title" : "Video Ad",
+        "url" : "https://vimeo.com/189099767"
+      },
+      {
         "title" : "Video 1",
-        "url" : ""
+        "url" : "http://recordit.co/OwkJkKPPjW"
       },
       {
         "title" : "Video 2",
-        "url" : ""
+        "url" : "http://recordit.co/n4PfeC503j"
       },
       {
         "title" : "Github",
-        "url" : ""
+        "url" : "https://github.com/jaketoolson/kabooodle"
       }
     ]
   },
