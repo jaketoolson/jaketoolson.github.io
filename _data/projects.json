@@ -5,13 +5,14 @@
     "permalink" : "/projects/kabooodle.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "images" : [],
-    "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Took about 6 months to complete and launch.",
+    "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. The business model changes at least three times and therefore took about 6 months to launch a closed private beta.",
     "highlights" : [
       "Custom claiming system",
       "Payment gateway for handling shipping charges and invoices",
       "Custom shipping and sales receipts",
       "USPS shipping integration and label creation",
       "SMS Notifications",
+      "Custom listings to Facebook and self-hosted Flashsales",
       "'Like' and 'Watch' items",
       "Referral and rewards system",
       "Custom sales analytics",
@@ -20,9 +21,12 @@
       "Inventory grouping (build outfits with your existing inventory)"
     ],
     "technologies" : [
-      "LEMP (Ubuntu, Nginx, MariaDB, PHP7)",
+      "LEMP (Ubuntu, Nginx, MariaDB, PHP 7.0)",
       "Laravel 5.x MVC Framework",
       "Pusherapp - websocket, realtime push notifications",
+      "Postmarkapp - SMTP transactional emails",
+      "Facebook API integration",
+      "Shippo - validating mailing addresses, shipping creation/tracking",
       "Vue/x - Frontend javascript components",
       "Async queues with over 25 pipelines",
       "Keen.io: Track user and sale analytics",
@@ -49,6 +53,10 @@
       {
         "title" : "Video 2",
         "url" : ""
+      },
+      {
+        "title" : "Github",
+        "url" : ""
       }
     ]
   },
@@ -56,18 +64,17 @@
     "name" : "travelr",
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
-    "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
-    "desc" : "A fictitious website used to search for and book reservations to planets.",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
+    "desc" : "A fictitious website used to search for and book reservations to planets. The API adheres to JSON API v.1 spec. (wip) JSON Schema 06 will be used to annotate and validate a json request against an API endpoint. (wip) Scalable design patterns/strategies will be implemented using git branches.",
+    "github_link" : "https://github.com/jaketoolson/travelr/",
+    "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [],
-    "images" : []
-  },
-  {
-    "name" : "oneupreviews",
-    "title" : "1UpReviews",
-    "permalink" : "/projects/travelr.html",
-    "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
-    "desc" : "A fictitious website used to search for and book reservations to planets.",
-    "links" : [],
-    "images" : []
+    "images" : [],
+    "highlights" : [],
+    "technologies" : [
+      "LEMP (Ubuntu, Nginx, MariaDB, PHP 7.1)",
+      "Laravel 5.6 MVC Framework",
+      "Vue - Frontend javascript components"
+    ]
   }
 ]

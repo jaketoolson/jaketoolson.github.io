@@ -5,4 +5,4 @@ category: projects
 ---
 {% assign project = site.data.projects | where:'name','travelr'| first %}
 
-{{ project }}
+{% include project.html %}
