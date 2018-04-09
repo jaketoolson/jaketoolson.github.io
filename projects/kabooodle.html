@@ -3,7 +3,16 @@ layout: default
 title: projects
 category: projects
 ---
-
 {% assign project = site.data.projects | where:'name','Kabooodle'| first %}
 
+{% capture extraDetails %}
+<p class="mb-2">Merchant Account Login details: <code >thehoff/testing1234</code></p>
+<p>Basic Account Login details: <code>steveperry/testing1234</code></p>
+<div class="alert alert-light" role="alert">
+    <strong>Note:</strong> This project is currently inactive and there are known bugs :)
+</div>
+{% endcapture  %}
+
 {% include project.html %}
+
+
