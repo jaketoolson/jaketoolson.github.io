@@ -61,6 +61,10 @@
       {
         "title" : "Github",
         "url" : "https://github.com/jaketoolson/kabooodle"
+      },
+      {
+        "title" : "Image 1",
+        "url" : "https://user-images.githubusercontent.com/612332/38526832-ad59718c-3c0c-11e8-9eb7-6622f83511c5.png"
       }
     ]
   },
@@ -69,7 +73,7 @@
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
-    "desc" : "A fictitious website used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress with the goal being a basic working MVP.",
+    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress with the goal being a basic working MVP.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [
