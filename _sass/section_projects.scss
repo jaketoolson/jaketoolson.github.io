@@ -32,4 +32,13 @@
   color: #c3eed1;
   .section-title {
   }
+  ul.contact-links {
+    a {
+      color: #dcf1e3 !important;
+      &:hover {
+        color: #fff !important;
+      }
+    }
+
+  }
 }
