@@ -47,7 +47,30 @@
             <h2 id="projects" class="section-title">PROJECTS</h2>
         </div>
         <div class="section-body">
-            {% include projects.html %}
+            <div class="card mb-4">
+                <div class="card-body txt-prpl">
+                    <p class="card-text txt-prpl">
+                        For most of my career, the majority of my work (relative to software/code) has been protected by IP. This means, I'm unable to share past projects' code base, or snippets. :(
+                    </p>
+                    <p class="card-text txt-prpl">
+                        But wait! The below projects I either own myself, or are "sandbox" projects showcasing my abilities as an engineer and creative.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-deck">
+                {% for project in site.data.projects  %}
+                <div class="card" >
+                    <img class="card-img-top" src="{{ project.img_card_src }}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="{{ project.permalink }}">{{ project.name }}</a></h4>
+                        <p class="card-text txt-prpl">
+                            {{ project.desc }}
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
