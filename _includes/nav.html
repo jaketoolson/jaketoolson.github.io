@@ -1,4 +1,11 @@
 <ul class="list-inline hidden-xs list-nav">
+    {% if page.url != "/" %}
+    <li class="list-inline-item">
+        <a href="/">
+            <i class="fas fa-home"></i>
+        </a>
+    </li>
+    {% endif %}
     <li class="list-inline-item">
         <a href="/#about" class="slide">ABOUT</a>
     </li>
