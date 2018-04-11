@@ -69,11 +69,11 @@
     ]
   },
   {
-    "name" : "travelr",
+    "name" : "Travelr",
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
-    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress with the goal being a basic working MVP.",
+    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress with the goal being an all-in-one showcase of development and technology.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [
@@ -102,6 +102,62 @@
       "JSON Web Token (JWT) - API security",
       "Vue - Frontend javascript components",
       "Stripe - payment gateway"
+    ]
+  },
+  {
+    "name" : "EVALS",
+    "title" : "EVALS",
+    "permalink" : "/projects/evals.html",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38598276-94ba13c0-3d10-11e8-97e2-4ba72a4b6dec.jpg",
+    "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training and continuing through career path development.",
+    "github_link" : "https://github.com/jaketoolson/travelr/",
+    "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
+    "links" : [
+      {
+        "title" : "Site",
+        "url" : "http://evals.net"
+      },
+      {
+        "title" : "Video 1",
+        "url" : "https://player.vimeo.com/video/128425893"
+      },
+      {
+        "title" : "Video 2",
+        "url" : "https://player.vimeo.com/video/128532246"
+      },
+      {
+        "title" : "iOS App",
+        "url" : "https://itunes.apple.com/us/app/evals/id903543274?mt=8"
+      }
+    ],
+    "images" : [],
+    "highlights" : [
+      "Industry agnostic framework, bring your own content",
+      "Hands-on training modules with customizable grading and scoring criteria",
+      "Customizable sharing of content between tenants",
+      "Capture digital signatures and video",
+      "Curriculum assignments module",
+      "Customizable terminology per tenant",
+      "REST API for companion iOS application",
+      "Role and permission management",
+      "GoPro Hero Integration (iOS)",
+      "Offline capability (iOS)"
+    ],
+    "technologies" : [
+      "LAMP (Ubuntu, Apache2, MySQL, PHP 5.6)",
+      "Laravel 4.2 MVC Framework",
+      "Postmarkapp - SMTP transactional emails",
+      "Runscope - API and traffic middleware with scheduled unit tests",
+      "SproutVideo - Video encoding and streaming",
+      "Async queues",
+      "Workers for processing and transferring videos",
+      "AWS EC2 - Custom AMI instances, multizone",
+      "AWS S3 - File storage",
+      "AWS ELB - Public facing Load Balancer",
+      "AWS Cloudfront - CDN for all assets",
+      "AWS RDS - MySQL, multizones",
+      "AWS ElastiCache - Redis cluster, multizone",
+      "AWS VPC - All services behind VPC private subnets"
     ]
   }
 ]

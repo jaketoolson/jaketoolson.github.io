@@ -15,8 +15,8 @@
                 <img src="{{ project.img_card_src }}" class="card-img-top" >
                 <div class="card-body">
                     <h1 class="card-title txt-prpl">{{ project.name }}</h1>
-                    <div class="card-text">
-                        <p class="mb-4 txt-prpl">{{ project.desc }}</p>
+                    <div class="card-text txt-prpl">
+                        <p class="mb-4">{{ project.desc }}</p>
                         {{ extraDetails }}
                     </div>
                     {% if project.links.size > 0 %}
@@ -27,8 +27,8 @@
                     </div>
                     {% endif %}
                     {% if project.highlights.size > 0 %}
-                    <h6>Project Highlights:</h6>
-                    <ul>
+                    <h6 class="txt-prpl">Project Highlights:</h6>
+                    <ul class="txt-prpl">
                         {% for highlight in project.highlights %}
                         <li>{{ highlight }}</li>
                         {% endfor %}
@@ -36,8 +36,8 @@
                     {% endif %}
 
                     {% if project.technologies.size > 0 %}
-                    <h6>Technologies:</h6>
-                    <ul>
+                    <h6 class="txt-prpl mt-4">Technologies:</h6>
+                    <ul class="txt-prpl">
                         {% for tech in project.technologies %}
                         <li>{{ tech }}</li>
                         {% endfor %}

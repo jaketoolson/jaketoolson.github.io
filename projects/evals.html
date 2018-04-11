@@ -1,0 +1,17 @@
+---
+layout: default
+title: projects
+category: projects
+---
+{% assign project = site.data.projects | where:'name','EVALS'| first %}
+
+{% capture extraDetails %}
+<p class="mb-4 txt-prpl">
+    "The EVALS story" or "perfect wave" as I called it, truly was remarkable and something I love to share.  From opportunity chasing us nationwide, to Apple inviting us to present our services to local businesses, it was a Readers Digest startup story.
+</p>
+<div class="alert alert-primary" role="alert">
+    <strong>Note:</strong> EVALS was acquired by Praetorian Digital in 2017 (hooray!!!) and I'm therefore no longer an owner or employee.
+</div>
+{% endcapture  %}
+
+{% include project.html %}
