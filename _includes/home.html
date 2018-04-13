@@ -62,6 +62,7 @@
                 {% for project in site.data.projects  %}
                 <div class="card" >
                     <div class="card-body">
+                        <img src="{{ project.img_card_src }}" class="card-img-top mb-3" >
                         <h4 class="card-title"><a href="{{ project.permalink }}">{{ project.name }}</a></h4>
                         <p class="card-text txt-prpl">
                             {{ project.desc }}

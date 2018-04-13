@@ -1,11 +1,47 @@
 [
   {
+    "name" : "Travelr",
+    "title" : "Travelr",
+    "permalink" : "/projects/travelr.html",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
+    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress. ",
+    "github_link" : "https://github.com/jaketoolson/travelr/",
+    "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
+    "links" : [
+      {
+        "title" : "Site",
+        "url" : "http://oriontravelr.com/"
+      },
+      {
+        "title" : "API",
+        "url" : "http://oriontravelr.com/api/planets"
+      },
+      {
+        "title" : "API - Filter for 'Tatooine'",
+        "url" : "http://oriontravelr.com/api/planets?filter[name]=tatooine"
+      },
+      {
+        "title" : "API - Filedsets for name, price_cents",
+        "url" : "http://oriontravelr.com/api/planets?fields[planet]=price_cents,name"
+      }
+    ],
+    "images" : [],
+    "highlights" : [],
+    "technologies" : [
+      "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
+      "Laravel 5.6 MVC Framework",
+      "JSON Web Token (JWT) - API security",
+      "Vue - Frontend javascript components",
+      "Stripe - payment gateway"
+    ]
+  },
+  {
     "name" : "Kabooodle",
     "url" : "kabooodle.com",
     "permalink" : "/projects/kabooodle.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "images" : [],
-    "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. The business model changed at least three times and therefore took about 6 months to launch a closed private beta.",
+    "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Launched closed private beta within 6 months.",
     "highlights" : [
       "Custom claiming system",
       "Payment gateway for handling shipping charges and invoices",
@@ -69,47 +105,11 @@
     ]
   },
   {
-    "name" : "Travelr",
-    "title" : "Travelr",
-    "permalink" : "/projects/travelr.html",
-    "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
-    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress with the goal being an all-in-one showcase of development and technology.",
-    "github_link" : "https://github.com/jaketoolson/travelr/",
-    "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
-    "links" : [
-      {
-        "title" : "Site",
-        "url" : "http://oriontravelr.com/"
-      },
-      {
-        "title" : "API",
-        "url" : "http://oriontravelr.com/api/planets"
-      },
-      {
-        "title" : "API - Filter for 'Tatooine'",
-        "url" : "http://oriontravelr.com/api/planets?filter[name]=tatooine"
-      },
-      {
-        "title" : "API - Filedsets for name, price_cents",
-        "url" : "http://oriontravelr.com/api/planets?fields[planet]=price_cents,name"
-      }
-    ],
-    "images" : [],
-    "highlights" : [],
-    "technologies" : [
-      "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
-      "Laravel 5.6 MVC Framework",
-      "JSON Web Token (JWT) - API security",
-      "Vue - Frontend javascript components",
-      "Stripe - payment gateway"
-    ]
-  },
-  {
     "name" : "EVALS",
     "title" : "EVALS",
     "permalink" : "/projects/evals.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38598276-94ba13c0-3d10-11e8-97e2-4ba72a4b6dec.jpg",
-    "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training and continuing through career path development.",
+    "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [
