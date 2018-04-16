@@ -13,6 +13,10 @@
         "url" : "http://oriontravelr.com/"
       },
       {
+        "title" : "Github",
+        "url" : "https://github.com/jaketoolson/travelr/"
+      },
+      {
         "title" : "API",
         "url" : "http://oriontravelr.com/api/planets"
       },
@@ -83,6 +87,10 @@
         "url" : "https://www.kabooodle.com"
       },
       {
+        "title" : "Github",
+        "url" : "https://github.com/jaketoolson/kabooodle"
+      },
+      {
         "title" : "Video Ad",
         "url" : "https://vimeo.com/189099767"
       },
@@ -93,10 +101,6 @@
       {
         "title" : "Video 2",
         "url" : "http://recordit.co/n4PfeC503j"
-      },
-      {
-        "title" : "Github",
-        "url" : "https://github.com/jaketoolson/kabooodle"
       },
       {
         "title" : "Image 1",
