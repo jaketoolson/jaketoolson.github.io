@@ -99,6 +99,23 @@ a {
   color: #493165 !important;
 }
 
+.txt-small {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.txt-italic {
+  font-style: italic;
+}
+
+.project-info {
+  background-color: #333 !important;
+  border-color: #333 !important;
+  p {
+    color: #999 !important;
+  }
+}
+
 
 @import "section_mast";
 @import "section_header";
