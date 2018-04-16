@@ -3,7 +3,7 @@
     "name" : "Travelr",
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
-    "img_card_src" : "https://user-images.githubusercontent.com/612332/38474769-65b26308-3b57-11e8-85c1-69410fb07d6e.jpg",
+    "img_card_src" : "https://user-images.githubusercontent.com/612332/38800057-197fccb8-411b-11e8-80f3-79c4137e14cf.jpg",
     "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress. ",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
@@ -31,7 +31,7 @@
       "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
       "Laravel 5.6 MVC Framework",
       "JSON Web Token (JWT) - API security",
-      "Vue - Frontend javascript components",
+      "Vue/x - Frontend javascript components",
       "Stripe - payment gateway"
     ]
   },
