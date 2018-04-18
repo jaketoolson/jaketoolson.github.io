@@ -4,7 +4,7 @@
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38800057-197fccb8-411b-11e8-80f3-79c4137e14cf.jpg",
-    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more! This project is a current work-in-progress. ",
+    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Initial MVP (WIP) is SPA with Vue consuming API using Laravel.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [
@@ -15,6 +15,10 @@
       {
         "title" : "Github",
         "url" : "https://github.com/jaketoolson/travelr/"
+      },
+      {
+        "title" : "Roadmap(ish)",
+        "url" : "https://github.com/jaketoolson/travelr/projects"
       },
       {
         "title" : "API",
