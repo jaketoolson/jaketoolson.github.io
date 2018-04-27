@@ -4,7 +4,7 @@
     "title" : "Travelr",
     "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38800057-197fccb8-411b-11e8-80f3-79c4137e14cf.jpg",
-    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Initial MVP (WIP) is SPA with Vue consuming API using Laravel.",
+    "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Project will be re-created across 3 separate dev stacks.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "links" : [
@@ -13,12 +13,16 @@
         "url" : "http://oriontravelr.com/"
       },
       {
-        "title" : "Github",
+        "title" : "LAMP Github",
         "url" : "https://github.com/jaketoolson/travelr/"
       },
       {
-        "title" : "Roadmap(ish)",
-        "url" : "https://github.com/jaketoolson/travelr/projects"
+        "title" : "Javascript Github",
+        "url" : "https://github.com/jaketoolson/travelr-js"
+      },
+      {
+        "title" : "Python Github",
+        "url" : ""
       },
       {
         "title" : "API",
@@ -36,11 +40,16 @@
     "images" : [],
     "highlights" : [],
     "technologies" : [
+      "--",
       "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
       "Laravel 5.6 MVC Framework",
-      "JSON Web Token (JWT) - API security",
-      "Vue/x - Frontend javascript components",
-      "Stripe - payment gateway"
+      "Vue/x - Frontend UI",
+      "--",
+      "Node.js",
+      "Hapi.js Framework",
+      "MySQL (using Sequelize)",
+      "Redux",
+      "React - Frontend UI"
     ]
   },
   {
