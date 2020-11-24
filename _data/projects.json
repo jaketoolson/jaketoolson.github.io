@@ -13,12 +13,12 @@
         "url" : "http://oriontravelr.com/"
       },
       {
-        "title" : "LAMP Github",
-        "url" : "https://github.com/jaketoolson/travelr/"
+        "title" : "Node Github",
+        "url" : "https://github.com/Orion-Travelr/"
       },
       {
-        "title" : "Javascript Github",
-        "url" : "https://github.com/jaketoolson/travelr-js"
+        "title" : "PHP Github",
+        "url" : "https://github.com/jaketoolson/travelr/"
       },
       {
         "title" : "Python Github",
@@ -39,17 +39,20 @@
     ],
     "images" : [],
     "highlights" : [],
-    "technologies" : [
+    "technologies" : [      
+      "--",
+      "Docker",
+      "Kubernetes",
+      "Node.js",
+      "Hapi.js Framework",
+      "SQLITE (using MikroORM)",
+      "Redux",
+      "React - Frontend UI"
       "--",
       "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
       "Laravel 5.6 MVC Framework",
       "Vue/x - Frontend UI",
       "--",
-      "Node.js",
-      "Hapi.js Framework",
-      "MySQL (using Sequelize)",
-      "Redux",
-      "React - Frontend UI"
     ]
   },
   {
