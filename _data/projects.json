@@ -4,7 +4,7 @@
     "title" : "Oliver",
     "permalink" : "/projects/oliver.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/oliver.jpg",
-    "desc" : "An event service used for event management.  Create an event and manage participants.  Participants can configure their participation level. ",
+    "desc" : "An event service used for event management.  Create an event and manage participants.  Participants can configure their participation level. Will be available in Apple and Google Play app stores.",
     "github_link" : "https://gitlab.com/orion_co/oliver",
     "links" : [],
     "images" : [],
