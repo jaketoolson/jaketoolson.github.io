@@ -1,0 +1,15 @@
+---
+layout: default
+title: projects
+category: projects
+---
+{% assign project = site.data.projects | where:'name','Oliver'| first %}
+
+{% capture extraDetails %}
+<div class="alert alert-primary" role="alert">
+    <strong>Note:</strong> This project is currently a <u>fun</u>, work in progress.
+</div>
+{% endcapture %}
+
+
+{% include project.html %}
