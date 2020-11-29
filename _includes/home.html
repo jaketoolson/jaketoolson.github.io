@@ -56,10 +56,9 @@
                 </div>
             </div>
 
-            <div class="card-deck">
+            <div class="card-deck mb-2">
                 {% for project in site.data.projects  %}
                     {% assign mod = forloop.index | modulo: 2 %}
-                    {{ mod }}
                 <div class="card" >
                     <div class="card-body">
                         <img src="{{ project.img_card_src }}" class="card-img-top mb-3" >
@@ -70,7 +69,7 @@
                     </div>
                 </div>
                    {% if mod == 0 %}
-                        </div><div class="card-deck">
+                        </div><div class="card-deck mb-2">
                     {% endif %}
                 {% endfor %}
             </div>
