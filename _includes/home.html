@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="card-deck mb-2">
+            <div class="card-deck mb-4">
                 {% for project in site.data.projects  %}
                     {% assign mod = forloop.index | modulo: 2 %}
                 <div class="card" >
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                    {% if mod == 0 %}
-                        </div><div class="card-deck mb-2">
+                        </div><div class="card-deck mb-4">
                     {% endif %}
                 {% endfor %}
             </div>
