@@ -6,7 +6,20 @@
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/oliver.jpg",
     "desc" : "An event service used for event management.  Create an event and manage participants.  Participants can configure their participation level. Will be available in Apple and Google Play app stores.",
     "github_link" : "https://gitlab.com/orion_co/oliver",
-    "links" : [],
+    "links" : [
+      {
+        "title" : "Home",
+        "url" : "https://gitlab.com/orion_co/oliver"
+      },
+      {
+        "title" : "Client",
+        "url" : "https://gitlab.com/orion_co/oliver/client"
+      },
+      {
+        "title" : "Backend Service",
+        "url" : "https://gitlab.com/orion_co/oliver/server"
+      }
+    ],
     "images" : [],
     "highlights" : [],
     "meta": "React Native, Node, Distributed Systems",
