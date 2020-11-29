@@ -9,6 +9,7 @@
     "links" : [],
     "images" : [],
     "highlights" : [],
+    "meta": "React Native, Node, Distributed Systems",
     "technologies" : [      
       "Node.js - Backend Service",
       "Hapi.js Framework",
@@ -26,6 +27,7 @@
     "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Project will be re-created across 3 separate dev stacks.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
+    "meta": "PHP, React, Node, Docker, Kubernetes, Distributed Systems",
     "links" : [
       {
         "title" : "Site",
@@ -83,6 +85,7 @@
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "images" : [],
     "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Launched closed private beta within 6 months.",
+    "meta": "AWS, PHP, Vue.js, Events",
     "highlights" : [
       "Custom claiming system",
       "Payment gateway for handling shipping charges and invoices",
@@ -153,6 +156,7 @@
     "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
+    "meta": "AWS, PHP, Javascript, Events, Queues",
     "links" : [
       {
         "title" : "Site",
