@@ -25,15 +25,15 @@
     "meta": [
       {
         "title": "React Native",
-        "url" : "https://img.icons8.com/color/32/000000/react-native.png"
+        "url" : "https://img.icons8.com/ios/32/000000/react-native.png"
       },
       {
         "title": "Node JS",
-        "url" : "https://img.icons8.com/color/32/000000/nodejs.png"
+        "url" : "https://img.icons8.com/ios/32/000000/nodejs.png"
       },
       {
         "title": "Typescript",
-        "url": "https://img.icons8.com/color/32/000000/typescript.png"
+        "url": "https://img.icons8.com/ios/32/000000/typescript.png"
       }
     ],
     "technologies" : [      
@@ -56,31 +56,31 @@
     "meta": [
       {
         "title": "React",
-        "url" : "https://img.icons8.com/color/32/000000/react-native.png"
+        "url" : "https://img.icons8.com/ios/32/000000/react-native.png"
       },
       {
         "title": "Node JS",
-        "url" : "https://img.icons8.com/color/32/000000/nodejs.png"
+        "url" : "https://img.icons8.com/ios/32/000000/nodejs.png"
       },
       {
         "title": "Typescript",
-        "url": "https://img.icons8.com/color/32/000000/typescript.png"
+        "url": "https://img.icons8.com/ios/32/000000/typescript.png"
       },
       {
         "title": "PHP",
-        "url": "https://img.icons8.com/color/32/000000/php.png"
+        "url": "https://img.icons8.com/ios/32/000000/php.png"
       },
       {
         "title": "Docker",
-        "url": "https://img.icons8.com/color/32/000000/docker.png"
+        "url": "https://img.icons8.com/ios/32/000000/docker.png"
       },
       {
         "title": "Kubernetes",
-        "url": "https://img.icons8.com/color/32/000000/kubernetes.png"
+        "url": "https://img.icons8.com/ios/32/000000/kubernetes.png"
       },         
       {
         "title": "Distributed Systems",
-        "url": "https://img.icons8.com/color/32/000000/network.png"
+        "url": "https://img.icons8.com/ios/32/000000/network.png"
       }
     ],
     "links" : [
@@ -143,15 +143,15 @@
     "meta": [
       {
         "title": "AWS",
-        "url" : "https://img.icons8.com/color/32/000000/amazon-web-services.png"
+        "url" : "https://img.icons8.com/ios/32/000000/amazon-web-services.png"
       },
       {
         "title": "Vue.js",
-        "url" : "https://img.icons8.com/color/32/000000/vue-js.png"
+        "url" : "https://img.icons8.com/ios/32/000000/vue-js.png"
       },
       {
         "title": "PHP",
-        "url": "https://img.icons8.com/color/32/000000/php.png"
+        "url": "https://img.icons8.com/ios/32/000000/php.png"
       }
     ],
     "highlights" : [
@@ -227,19 +227,19 @@
     "meta": [
       {
         "title": "AWS",
-        "url" : "https://img.icons8.com/color/32/000000/amazon-web-services.png"
+        "url" : "https://img.icons8.com/ios/32/000000/amazon-web-services.png"
       },     
       {
         "title": "PHP",
-        "url": "https://img.icons8.com/color/32/000000/php.png"
+        "url": "https://img.icons8.com/ios/32/000000/php.png"
       },
       {
         "title": "Javascript",
-        "url" : "https://img.icons8.com/color/32/000000/javascript.png"
+        "url" : "https://img.icons8.com/ios/32/000000/javascript.png"
       },
       {
         "title": "iOS",
-        "url": "https://img.icons8.com/color/32/000000/ios-logo.png"
+        "url": "https://img.icons8.com/ios/32/000000/ios-logo.png"
       }
     ],
     "links" : [
