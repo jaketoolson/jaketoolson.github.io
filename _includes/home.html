@@ -63,13 +63,15 @@
                         <p class="card-text txt-prpl">
                             {{ project.desc }}
                         </p>
-                        <ul class="list-inline">
-                            {% for meta in project.meta %}
-                            <li class="list-inline-item">
-                                <img src="{{ meta.url }}" alt="{{ meta.title}}" title="{{ meta.title}}" />
-                            </li>
-                            {% endfor %}
-                        </ul>
+                        <div class="clearfix">
+                            <ul class="list-inline float-right">
+                                {% for meta in project.meta %}
+                                <li class="list-inline-item">
+                                    <img src="{{ meta.url }}" alt="{{ meta.title}}" title="{{ meta.title}}" />
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     </div>
                 </div>
                    {% if mod == 0 %}
