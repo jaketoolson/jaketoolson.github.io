@@ -22,7 +22,20 @@
     ],
     "images" : [],
     "highlights" : [],
-    "meta": "React Native, Expo, Node, Typescript",
+    "meta": [
+      {
+        "title": "React Native",
+        "url" : "https://img.icons8.com/color/32/000000/react-native.png"
+      },
+      {
+        "title": "Node JS",
+        "url" : "https://img.icons8.com/color/32/000000/nodejs.png"
+      },
+      {
+        "title": "Typescript",
+        "url": "https://img.icons8.com/color/32/000000/typescript.png"
+      }
+    ],
     "technologies" : [      
       "Node.js - Backend Service",
       "Hapi.js Framework",
@@ -40,7 +53,36 @@
     "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Project will be re-created across 3 separate dev stacks.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
-    "meta": "React, Node, Typescript, PHP, Docker, Kubernetes, Distributed Systems",
+    "meta": [
+      {
+        "title": "React",
+        "url" : "https://img.icons8.com/color/32/000000/react-native.png"
+      },
+      {
+        "title": "Node JS",
+        "url" : "https://img.icons8.com/color/32/000000/nodejs.png"
+      },
+      {
+        "title": "Typescript",
+        "url": "https://img.icons8.com/color/32/000000/typescript.png"
+      },
+      {
+        "title": "PHP",
+        "url": "https://img.icons8.com/color/32/000000/php.png"
+      },
+      {
+        "title": "Docker",
+        "url": "https://img.icons8.com/color/32/000000/docker.png"
+      },
+      {
+        "title": "Kubernetes",
+        "url": "https://img.icons8.com/color/32/000000/kubernetes.png"
+      },         
+      {
+        "title": "Distributed Systems",
+        "url": "https://img.icons8.com/color/32/000000/network.png"
+      }
+    ],
     "links" : [
       {
         "title" : "Site",
@@ -98,7 +140,20 @@
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "images" : [],
     "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Launched closed private beta within 6 months.",
-    "meta": "AWS, PHP, Vue.js, Events",
+    "meta": [
+      {
+        "title": "AWS",
+        "url" : "https://img.icons8.com/color/32/000000/amazon-web-services.png"
+      },
+      {
+        "title": "Vue.js",
+        "url" : "https://img.icons8.com/color/32/000000/vue-js.png"
+      },
+      {
+        "title": "PHP",
+        "url": "https://img.icons8.com/color/32/000000/php.png"
+      }
+    ],
     "highlights" : [
       "Custom claiming system",
       "Payment gateway for handling shipping charges and invoices",
@@ -169,7 +224,24 @@
     "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training.",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
-    "meta": "AWS, PHP, Javascript, Events, Queues",
+    "meta": [
+      {
+        "title": "AWS",
+        "url" : "https://img.icons8.com/color/32/000000/amazon-web-services.png"
+      },     
+      {
+        "title": "PHP",
+        "url": "https://img.icons8.com/color/32/000000/php.png"
+      },
+      {
+        "title": "Javascript",
+        "url" : "https://img.icons8.com/color/32/000000/javascript.png"
+      },
+      {
+        "title": "iOS",
+        "url": "https://img.icons8.com/color/32/000000/ios-logo.png"
+      }
+    ],
     "links" : [
       {
         "title" : "Site",
@@ -204,6 +276,7 @@
     "technologies" : [
       "LAMP (Ubuntu, Apache2, MySQL, PHP 5.6)",
       "Laravel 4.2 MVC Framework",
+      "Native iOS iPhone &amp; iPad App",
       "Postmarkapp - SMTP transactional emails",
       "Runscope - API and traffic middleware with scheduled unit tests",
       "SproutVideo - Video encoding and streaming",
