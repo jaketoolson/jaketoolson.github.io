@@ -64,6 +64,13 @@
                             {{ project.desc }}
                         </p>
                         <p class="card-text"><small class="text-muted txt-tiny font-italic txt-prpl">{{ project.meta }}</small></p>
+                        <ul class="list-inline">
+                            {% for meta in project.meta %}
+                            <li class="list-inline-item">
+                                <img src="{{ meta.url }}" alt="{{ meta.title}}" title="{{ meta.title}}" />
+                            </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
                    {% if mod == 0 %}
