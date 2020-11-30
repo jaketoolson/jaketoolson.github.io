@@ -8,6 +8,10 @@
     "github_link" : "https://gitlab.com/orion_co/oliver",
     "links" : [
       {
+        "title": "Origin Story",
+        "url" : "https://gitlab.com/orion_co/oliver/foundation/-/blob/master/README.md"
+      },
+      {
         "title" : "Home",
         "url" : "https://gitlab.com/orion_co/oliver"
       },
