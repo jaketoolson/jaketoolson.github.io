@@ -227,6 +227,7 @@
     "highlights" : [],
     "technologies" : [      
       "--",
+      "<strong>Node/React Stack:</strong>",
       "Docker",
       "Kubernetes",
       "Node.js",
