@@ -4,7 +4,7 @@
     "title" : "DONATR",
     "permalink" : "/projects/donatr.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/donatr.jpg",
-    "desc" : "The objective is to demonstrate some extremely basic design concepts for discussion purposes only haha!  Infact, some of this is simply placeholder for the discussion!  The docker images and containers are for local testing purposes only and not an attempt to demonstrate deployable infrastructure.",
+    "desc" : "A donation platform created to demonstrate some extremely basic design concepts for discussion <string>purposes only!</strong> The docker images and containers are for local testing purposes only and not an attempt to demonstrate deployable infrastructure.",
     "github_link" : "https://gitlab.com/orion_co/donatr/foundation",
     "links" : [
       {
