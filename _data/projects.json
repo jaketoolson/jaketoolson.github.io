@@ -226,7 +226,6 @@
     "images" : [],
     "highlights" : [],
     "technologies" : [      
-      "--",
       "<strong>Node/React Stack:</strong>",
       "Docker",
       "Kubernetes",
@@ -237,11 +236,16 @@
       "React - Frontend UI",
       "Typescript",
       "MikroORM",
-      "--",
+      "<strong>Laravel/Vue Stack:</strong>",
       "LAMP (Ubuntu, Apache2, MariaDB, PHP 7.1)",
       "Laravel 5.6 MVC Framework",
       "Vue/x - Frontend UI",
-      "--"
+      "<strong>Laravel/React Microservice Stack:</strong>",
+      "Laravel 11 MVC Framework",
+      "React - Frontend UI",
+      "React Query",
+      "React Router",
+      "Typescript"
     ]
   },
   {
