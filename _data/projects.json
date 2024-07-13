@@ -195,12 +195,16 @@
         "url" : "http://oriontravelr.com/"
       },
       {
-        "title" : "Node Github",
+        "title" : "Node/React",
         "url" : "https://github.com/Orion-Travelr/foundation"
       },
       {
-        "title" : "PHP Github",
+        "title" : "PHP/Vue Monolith",
         "url" : "https://github.com/jaketoolson/travelr/"
+      },
+            {
+        "title" : "PHP/React Microservices",
+        "url" : "https://gitlab.com/orion_co/travelr/v2/foundation"
       },
       {
         "title" : "Python Github",
