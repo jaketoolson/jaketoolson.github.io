@@ -4,7 +4,7 @@
     "title" : "Supply",
     "permalink" : "/projects/supply.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/supply.jpg",
-    "desc" : "The goal of this is to provide a very high level backend concept built in microservices for various critical components of a supply chain.  This also includes the concept of an ACL layer for the Orders service, which would be used to sunset a legacy service seamlessly.",
+    "desc" : "The goal of this is to provide high distributed systems for various critical components of a supply chain.  This also includes the concept of an ACL layer for the Orders service, which would be used to sunset a legacy service seamlessly.",
     "note" :"This is a POC to lay a basic distrubted system of services, with an ACL in place", 
     "github_link" : "https://gitlab.com/orion_co/oliver",
     "links" : [
