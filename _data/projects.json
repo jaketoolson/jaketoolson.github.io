@@ -4,8 +4,7 @@
     "title" : "DONATR",
     "permalink" : "/projects/donatr.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/donatr.jpg",
-    "desc" : "The goal of this is to provide high distributed systems for various critical components of a supply chain.  This also includes the concept of an ACL layer for the Orders service, which would be used to sunset the legacy Orders service seamlessly.",
-    "note" :"This is a POC to lay a basic distrubted system of services, with an ACL in place", 
+    "desc" : "The objective is to demonstrate some extremely basic design concepts for discussion purposes only haha!  Infact, some of this is simply placeholder for the discussion!  The docker images and containers are for local testing purposes only and not an attempt to demonstrate deployable infrastructure.",
     "github_link" : "https://gitlab.com/orion_co/donatr/foundation",
     "links" : [
       {
@@ -13,28 +12,16 @@
         "url" : "https://gitlab.com/orion_co/supply/foundation"
       },
       {
-        "title" : "API Gateway Service",
-        "url" : "https://gitlab.com/orion_co/supply/services/gateway"
+        "title" : "Client",
+        "url" : "https://gitlab.com/orion_co/donatr/client"
       },
       {
-        "title":"Inventory Service",
-        "url" :"https://gitlab.com/orion_co/supply/services/inventory"
+        "title" : "API Gateway",
+        "url" : "https://gitlab.com/orion_co/donatr/services/client_gateway"
       },
       {
-        "title" : "Assets Service",
-        "url" : "https://gitlab.com/orion_co/supply/services/assets"
-      },
-      {
-        "title":"Orders Service (Legacy)",
-        "url" :"https://gitlab.com/orion_co/supply/services/orders"
-      },
-      {
-        "title" : "Orders ACL",
-        "url" : "https://gitlab.com/orion_co/supply/services/orders-acl"
-      },
-            {
-        "title" : "Product Service",
-        "url" : "https://gitlab.com/orion_co/supply/services/product"
+        "title" : "Platform Service",
+        "url" : "https://gitlab.com/orion_co/donatr/services/platform"
       }
     ],
     "images" : [],
@@ -49,11 +36,12 @@
         "url": "https://img.icons8.com/ios/16/000000/typescript.png"
       }
     ],
-    "technologies" : [      
+    "technologies" : [
+      "PHP",
+      "Javacsript/Typescript",
       "Node.js",
-      "Hapi.js Framework",
-      "SQLITE (using MikroORM)",
-      "Typescript"
+      "React",
+      "Laravel MVC Framework",
     ]
   },
   {
