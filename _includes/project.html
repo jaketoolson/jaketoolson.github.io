@@ -1,5 +1,3 @@
-
-
 <section class="section section-projects bg-c">
     <div class="container content">
         <div class="section-title text-center">
@@ -8,11 +6,10 @@
                     {% include nav.html %}
                 </div>
             </div>
-
         </div>
         <div class="section-body">
             <div class="card mb-3">
-                <img src="{{ project.img_card_src }}" class="card-img-top" >
+                <img src="{{ project.img_card_src }}" class="card-img-top">
                 <div class="card-body">
                     <h1 class="card-title txt-prpl-drk">{{ project.name }}</h1>
                     <div class="card-text txt-prpl">
@@ -30,7 +27,7 @@
                     <h4 class="txt-prpl-drk">Project Highlights:</h4>
                     <ul class="txt-prpl">
                         {% for highlight in project.highlights %}
-                        <li>{{ highlight }}</li>
+                            <li>{{ highlight }}</li>
                         {% endfor %}
                     </ul>
                     {% endif %}
@@ -39,18 +36,18 @@
                     <h4 class="txt-prpl-drk mt-4">Technologies:</h4>
                     <ul class="txt-prpl">
                         {% for tech in project.technologies %}
-                         {% if tech.instance_of? Object %}
-                            {% for subtech in tech %}
-                                 <li>{{ subtech }}</li>
-                            {% endfor %}
-                         {% endif %}
-                        <li>{{ tech }}</li>
+                            {% if tech.instance_of? Object %}
+                                {% for subtech in tech %}
+                                    <li>{{ subtech }}</li>
+                                {% endfor %}
+                            {% else %}
+                            <li>{{ tech }}</li>
+                            {% end %}
                         {% endfor %}
                     </ul>
                     {% endif %}
                 </div>
             </div>
-
         </div>
     </div>
 </section>
