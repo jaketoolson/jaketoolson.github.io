@@ -37,8 +37,8 @@
                     <ul class="txt-prpl">
                         {% for tech in project.technologies %}
                             {% if tech.instance_of? Object %}
-                                {% for subtech in tech %}
-                                    <li class="sub">{{ subtech }}</li>
+                                {% tech.each do |key, value| %}
+                                    <li class="sub">{{ value }}</li>
                                 {% endfor %}
                             {% else %}
                                 <li class="root">{{ tech }}</li>
