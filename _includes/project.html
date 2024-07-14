@@ -39,7 +39,7 @@
                     <h4 class="txt-prpl-drk mt-4">Technologies:</h4>
                     <ul class="txt-prpl">
                         {% for tech in project.technologies %}
-                         {% if tech.size > 0 %}
+                         {% if tech.instance_of? Object %}
                             {% for subtech in tech %}
                                  <li>{{ subtech }}</li>
                             {% endfor %}
