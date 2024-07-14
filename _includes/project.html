@@ -36,13 +36,13 @@
                     <h4 class="txt-prpl-drk mt-4">Technologies:</h4>
                     <ul class="txt-prpl">
                         {% for tech in project.technologies %}
-                            {% if tech.is_a?(Hash) %}
+<!--                             {% if tech.is_a?(Hash) %}
                                 {% tech.each do |key, value| %}
                                     <li>{{ subtech }}</li>
                                 {% endfor %}
-                            {% else %}
+                            {% else %} -->
                                 <li>{{ tech }}</li>
-                            {% end %}
+<!--                             {% end %} -->
                         {% endfor %}
                     </ul>
                     {% endif %}
