@@ -1,5 +1,55 @@
 [
   {
+    "name" : "MAPPR",
+    "title" : "MAPPR",
+    "permalink" : "/projects/mappr.html",
+    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/mappr.png",
+    "desc" : "A Mobile App Service that shows mobile technician routes coupled with appointment scheduling.",
+    "github_link" : "https://gitlab.com/mappr1/foundation",
+    "links" : [
+      {
+        "title" : "Home",
+        "url" : "https://gitlab.com/mappr1/foundation"
+      },
+      {
+        "title" : "Web",
+        "url" : "https://gitlab.com/mappr1/client"
+      },
+      {
+        "title" : "Mobile",
+        "url" : "https://gitlab.com/mappr1/mobile"
+      },
+      {
+        "title" : "Platform Service",
+        "url" : "https://gitlab.com/mappr1/platform"
+      }
+    ],
+    "images" : [],
+    "highlights" : [],
+    "meta": [
+      {
+        "title": "React Native",
+        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
+      },
+      {
+        "title": "Node JS",
+        "url" : "https://img.icons8.com/windows/16/000000/php.png"
+      },
+      {
+        "title": "Typescript",
+        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
+      }
+    ],
+    "technologies" : [
+      "PHP/Laravel - Backend Service",
+      "React - Web",
+      "PostGIS/PostGres - GeoSpatial Data Store",
+      "React Native - Mobile Client",
+      "Expo",
+      "Typescript"
+    ]
+  },
+  {
     "name" : "DONATR",
     "title" : "DONATR",
     "permalink" : "/projects/donatr.html",
