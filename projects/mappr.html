@@ -1,0 +1,14 @@
+---
+layout: default
+title: projects
+category: projects
+---
+{% assign project = site.data.projects | where:'name','MAPPR'| first %}
+
+{% capture extraDetails %}
+
+{% endcapture %}
+
+
+
+{% include project.html %}
