@@ -4,7 +4,7 @@
     "title" : "MAPPR",
     "permalink" : "/projects/mappr.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/mappr.png",
-    "desc" : "A Mobile App Service that shows mobile technician routes coupled with appointment scheduling.  The objective is to create a product that can be interfaced seamlessly using an API by both the web and client.  ",
+    "desc" : "A Mobile App Service that shows mobile technician routes coupled with appointment scheduling.  The objective is to create a product that can be interfaced seamlessly using an API by both the web and client, and querying geospatial data.  ",
     "github_link" : "https://gitlab.com/mappr1/foundation",
     "links" : [
       {
