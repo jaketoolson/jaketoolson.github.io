@@ -46,7 +46,9 @@
       "PostGIS/PostGres - GeoSpatial Data Store",
       "React Native - Mobile Client",
       "Expo",
-      "Typescript"
+      "Vite",
+      "Typescript",
+      "React Query",
     ]
   },
   {
