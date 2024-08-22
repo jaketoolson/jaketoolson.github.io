@@ -1,5 +1,59 @@
 [
   {
+    "name" : "BROOKLYNS",
+    "title" : "BROOKLYNS",
+    "permalink" : "/projects/brooklyns.html",
+    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/brooklyns.png",
+    "desc" : "WIP  ",
+    "github_link" : "https://gitlab.com/brooklyns/foundation",
+    "links" : [
+      {
+        "title" : "Home",
+        "url" : "https://gitlab.com/brooklyns/foundation"
+      },
+      {
+        "title" : "Web",
+        "url" : "https://gitlab.com/brooklyns/clients/web"
+      },
+      {
+        "title" : "API Gateway",
+        "url" : "https://gitlab.com/brooklyns/gateway"
+      },
+      {
+        "title" : "Platform Service",
+        "url" : "https://gitlab.com/brooklyns/platform"
+      }
+    ],
+    "images" : [],
+    "highlights" : [],
+    "meta": [
+      {
+        "title": "React Native",
+        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
+      },
+      {
+        "title": "Node JS",
+        "url" : "https://img.icons8.com/windows/16/000000/php.png"
+      },
+      {
+        "title": "Typescript",
+        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
+      }
+    ],
+    "technologies" : [
+      "PHP/Laravel - Backend Service",
+      "React - Web",
+      "PostGIS/PostGres - GeoSpatial Data Store",
+      "React Native - Mobile Client",
+      "Expo",
+      "Vite",
+      "Typescript",
+      "React Query",
+      "NODE.js",
+      "Express",
+    ]
+  },
+  {
     "name" : "MAPPR",
     "title" : "MAPPR",
     "permalink" : "/projects/mappr.html",
