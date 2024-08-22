@@ -4,7 +4,7 @@
     "title" : "BROOKLYNS",
     "permalink" : "/projects/brooklyns.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/brooklyns.jpg",
-    "desc" : "08/22/2024 -- (WIP) -- I'm putting together a very quick app that is used by medical patients and providers.  Each will have their own separate portals  ",
+    "desc" : "08/22/2024 -- (WIP) -- I'm putting together a very quick app that is used by medical patients and providers.  Each will have their own separate portals.  There will be an API Gateway Service between the frontend and platform.  I'm also using lightweight DDD architecture on the platform, and will add a touch of CQRS.  ",
     "github_link" : "https://gitlab.com/brooklyns/foundation",
     "links" : [
       {
