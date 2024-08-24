@@ -41,6 +41,17 @@
                     </ul>
                     {% endif %}
                 </div>
+                <div class="card-footer bg-white border-0">
+                    <div class="clearfix">
+                        <ul class="list-inline float-right">
+                            {% for meta in project.meta %}
+                            <li class="list-inline-item">
+                                <img src="/images/tech/{{ meta }}.png" height="30" alt-="{{meta}}" title="{{meta}}" />
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

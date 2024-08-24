@@ -4,7 +4,8 @@
     "title" : "BROOKLYNS",
     "permalink" : "/projects/brooklyns.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/brooklyns.jpg",
-    "desc" : "08/22/2024 -- (WIP) -- I'm putting together a very quick app that is used by medical patients and providers.  Each will have their own separate portals.  ",
+    "desc" : "08/22/2024 -- (WIP) -- A professional healthcare platform that connects Clinicians with Patients.  The goal is to create a multi-clustered environment, allowing separate portals for Clinicians and Patients.  Integrations will be independent services that proxy to the backend for data ingestion and transfer. ",
+    "long_desc": "",
     "github_link" : "https://gitlab.com/brooklyns/foundation",
     "links" : [
       {
@@ -27,18 +28,17 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      {
-        "title": "React Native",
-        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
-      },
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/php.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      }
+      "docker",
+      "cluster",
+      "react",
+      "php",
+      "typescript",
+      "laravel",
+      "node",
+      "nginx",
+      "vite",
+      "express",
+      "mariadb"
     ],
     "technologies" : [
       "PHP/Laravel - Backend Service",
@@ -57,6 +57,7 @@
     "permalink" : "/projects/mappr.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/mappr.png",
     "desc" : "A Mobile App Service that shows mobile technician routes coupled with appointment scheduling.  The objective is to create a product that can be interfaced seamlessly using an API by both web and mobile clients, and querying geospatial data.  ",
+    "long_desc": "",
     "github_link" : "https://gitlab.com/mappr1/foundation",
     "links" : [
       {
@@ -79,18 +80,19 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      {
-        "title": "React Native",
-        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
-      },
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/php.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      }
+      "docker",
+      "cluster",
+      "react",
+      "php",
+      "typescript",
+      "laravel",
+      "nginx",
+      "node",
+      "vite",
+      "express",
+      "postgres",
+      "expo",
+      "react-native"
     ],
     "technologies" : [
       "PHP/Laravel - Backend Service",
@@ -100,7 +102,7 @@
       "Expo",
       "Vite",
       "Typescript",
-      "React Query",
+      "React Query"
     ]
   },
   {
@@ -109,6 +111,7 @@
     "permalink" : "/projects/donatr.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/donatr.jpg",
     "desc" : "A donation platform created to demonstrate some extremely basic design concepts for discussion <string>purposes only!</strong> The docker images and containers are for local testing purposes only and not an attempt to demonstrate deployable infrastructure.",
+    "long_desc": "",
     "github_link" : "https://gitlab.com/orion_co/donatr/foundation",
     "links" : [
       {
@@ -131,14 +134,13 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/nodejs.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      }
+      "docker",
+      "react",
+      "php",
+      "typescript",
+      "laravel",
+      "nginx",
+      "node"
     ],
     "technologies" : [
       "PHP",
@@ -154,7 +156,8 @@
     "permalink" : "/projects/supply.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/supply.jpg",
     "desc" : "Supply Chain backend distributed systems.  This also includes the concept of an ACL layer for the Orders service, which would be used to sunset the legacy Orders service seamlessly.",
-    "note" :"This is a POC to lay a basic distrubted system of services, with an ACL in place", 
+    "long_desc": "",
+    "note" :"This is a POC to lay a basic distrubted system of services, with an ACL in place",
     "github_link" : "https://gitlab.com/orion_co/oliver",
     "links" : [
       {
@@ -189,20 +192,23 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/nodejs.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      }
+      "docker",
+      "react",
+      "php",
+      "typescript",
+      "nginx",
+      "laravel",
+      "node",
+      "sqlite",
+      "hapi"
     ],
     "technologies" : [      
       "Node.js",
       "Hapi.js Framework",
       "SQLITE (using MikroORM)",
-      "Typescript"
+      "Typescript",
+      "PHP",
+      "Laravel Framework",
     ]
   },
   {
@@ -211,6 +217,7 @@
     "permalink" : "/projects/oliver.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/oliver.jpg",
     "desc" : "An event service used for event management.  Create an event and manage participants.  Participants can configure their participation level. Will be available in Apple and Google Play app stores.",
+    "long_desc": "",
     "github_link" : "https://gitlab.com/orion_co/oliver",
     "links" : [
       {
@@ -233,20 +240,16 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      {
-        "title": "React Native",
-        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
-      },
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/nodejs.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      }
+      "docker",
+      "react",
+      "typescript",
+      "node",
+      "sqlite",
+      "hapi",
+      "expo",
+      "react-native"
     ],
-    "technologies" : [      
+    "technologies" : [
       "Node.js - Backend Service",
       "Hapi.js Framework",
       "SQLITE (using MikroORM)",
@@ -261,37 +264,21 @@
     "permalink" : "/projects/travelr.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38800057-197fccb8-411b-11e8-80f3-79c4137e14cf.jpg",
     "desc" : "A fictitious SaaS used to search for and book reservations to planets. Search by planet name, galaxy, terrain type, and more!  Project will be re-created across 3 separate dev stacks.",
+    "long_desc": "",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "meta": [
-      {
-        "title": "React",
-        "url" : "https://img.icons8.com/ios/16/000000/react-native.png"
-      },
-      {
-        "title": "Node JS",
-        "url" : "https://img.icons8.com/windows/16/000000/nodejs.png"
-      },
-      {
-        "title": "Typescript",
-        "url": "https://img.icons8.com/ios/16/000000/typescript.png"
-      },
-      {
-        "title": "PHP",
-        "url": "https://img.icons8.com/ios/16/000000/php.png"
-      },
-      {
-        "title": "Docker",
-        "url": "https://img.icons8.com/ios/16/000000/docker.png"
-      },
-      {
-        "title": "Kubernetes",
-        "url": "https://img.icons8.com/ios/16/000000/kubernetes.png"
-      },         
-      {
-        "title": "Distributed Systems",
-        "url": "https://img.icons8.com/ios/16/000000/network.png"
-      }
+      "docker",
+      "react",
+      "php",
+      "typescript",
+      "redux",
+      "kubernetes",
+      "vue",
+      "laravel",
+      "node",
+      "sqlite",
+      "python"
     ],
     "links" : [
       {
@@ -329,7 +316,7 @@
     ],
     "images" : [],
     "highlights" : [],
-    "technologies" : [      
+    "technologies" : [
       "<strong>Node/React Stack:</strong>",
       "Docker",
       "Kubernetes",
@@ -359,19 +346,15 @@
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38335629-d15a9644-3813-11e8-9b98-cc23b5cfc2d5.png",
     "images" : [],
     "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Launched closed private beta within 6 months.",
+    "long_desc": "",
     "meta": [
-      {
-        "title": "AWS",
-        "url" : "https://img.icons8.com/material/16/000000/amazon-web-services.png"
-      },
-      {
-        "title": "Vue.js",
-        "url" : "https://img.icons8.com/windows/16/000000/vuejs.png"
-      },
-      {
-        "title": "PHP",
-        "url": "https://img.icons8.com/ios/16/000000/php.png"
-      }
+      "aws",
+      "facebook",
+      "react",
+      "php",
+      "laravel",
+      "vue",
+      "mariadb"
     ],
     "highlights" : [
       "Custom claiming system",
@@ -441,25 +424,18 @@
     "permalink" : "/projects/evals.html",
     "img_card_src" : "https://user-images.githubusercontent.com/612332/38598276-94ba13c0-3d10-11e8-97e2-4ba72a4b6dec.jpg",
     "desc" : "CTO &amp; Co-Founder.  EVALS helped to ensure successful student development, through efficiency of instruction and consistency of performance expectations during times of initial training.",
+    "long_desc": "",
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "meta": [
-      {
-        "title": "AWS",
-        "url" : "https://img.icons8.com/material/16/000000/amazon-web-services.png"
-      },     
-      {
-        "title": "PHP",
-        "url": "https://img.icons8.com/ios/16/000000/php.png"
-      },
-      {
-        "title": "Javascript",
-        "url" : "https://img.icons8.com/ios/16/000000/javascript.png"
-      },
-      {
-        "title": "iOS",
-        "url": "https://img.icons8.com/ios/16/000000/ios-logo.png"
-      }
+      "aws",
+      "ubuntu",
+      "mysql",
+      "javascript",
+      "php",
+      "ios",
+      "laravel",
+      "vue"
     ],
     "links" : [
       {
@@ -468,11 +444,15 @@
       },
       {
         "title" : "Video 1",
-        "url" : "https://player.vimeo.com/video/128425893"
+        "url" : "https://www.youtube.com/watch?v=CPWEwAd-CJ4"
       },
       {
         "title" : "Video 2",
-        "url" : "https://player.vimeo.com/video/128532246"
+        "url" : "https://www.youtube.com/watch?v=GF9wTmjI1Nc"
+      },
+      {
+        "title" : "Video 3",
+        "url" : "https://www.youtube.com/watch?v=0wxBrrf3D10"
       },
       {
         "title" : "iOS App",

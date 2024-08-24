@@ -65,11 +65,13 @@
                         <p class="card-text txt-prpl">
                             {{ project.desc }}
                         </p>
+                    </div>
+                    <div class="card-footer border-0 bg-white">
                         <div class="clearfix">
                             <ul class="list-inline float-right">
                                 {% for meta in project.meta %}
                                 <li class="list-inline-item">
-                                    <img src="{{ meta.url }}" alt="{{ meta.title}}" title="{{ meta.title}}" />
+                                    <img src="/images/tech/{{ meta }}.png" height="20" alt-="{{meta}}" title="{{meta}}" />
                                 </li>
                                 {% endfor %}
                             </ul>
