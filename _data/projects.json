@@ -17,6 +17,10 @@
         "url" : "https://gitlab.com/brooklyns/clients/web"
       },
       {
+        "title" : "Integration Services",
+        "url" : "https://gitlab.com/brooklyns/foundation/-/tree/main/integrations"
+      },
+      {
         "title" : "API Gateway",
         "url" : "https://gitlab.com/brooklyns/gateway"
       },
@@ -28,28 +32,17 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker",
-      "cluster",
-      "react",
-      "php",
-      "typescript",
-      "redis",
-      "laravel",
-      "node",
-      "nginx",
-      "vite",
-      "express",
-      "mariadb"
+      "cluster", "docker", "express", "laravel", "mariadb", "nginx", "node", "php", "react", "redis", "typescript", "vite"
     ],
     "technologies" : [
-      "PHP/Laravel - Backend Service",
-      "React - Web",
+      "PHP/Laravel",
+      "React",
       "MARIADB",
       "Vite",
       "Typescript",
       "React Query",
       "NODE.js",
-      "Express",
+      "Express"
     ]
   },
   {
@@ -81,20 +74,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker",
-      "cluster",
-      "react",
-      "php",
-      "typescript",
-      "redis",
-      "laravel",
-      "nginx",
-      "node",
-      "vite",
-      "express",
-      "postgres",
-      "expo",
-      "react-native"
+      "cluster", "docker", "expo", "express", "laravel", "nginx", "node", "php", "postgres", "react", "react-native", "redis", "typescript", "vite"
     ],
     "technologies" : [
       "PHP/Laravel - Backend Service",
@@ -136,13 +116,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker",
-      "react",
-      "php",
-      "typescript",
-      "laravel",
-      "nginx",
-      "node"
+      "docker", "laravel", "nginx", "node", "php", "react", "typescript"
     ],
     "technologies" : [
       "PHP",
@@ -194,15 +168,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker",
-      "react",
-      "php",
-      "typescript",
-      "nginx",
-      "laravel",
-      "node",
-      "sqlite",
-      "hapi"
+      "docker", "hapi", "laravel", "nginx", "node", "php", "react", "sqlite", "typescript"
     ],
     "technologies" : [      
       "Node.js",
@@ -242,14 +208,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker",
-      "react",
-      "typescript",
-      "node",
-      "sqlite",
-      "hapi",
-      "expo",
-      "react-native"
+      "docker", "expo", "hapi", "node", "react", "react-native", "sqlite", "typescript"
     ],
     "technologies" : [
       "Node.js - Backend Service",
@@ -270,17 +229,7 @@
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "meta": [
-      "docker",
-      "react",
-      "php",
-      "typescript",
-      "redux",
-      "kubernetes",
-      "vue",
-      "laravel",
-      "node",
-      "sqlite",
-      "python"
+      "docker", "kubernetes", "laravel", "node", "php", "python", "react", "redux", "sqlite", "typescript", "vue"
     ],
     "links" : [
       {
@@ -350,13 +299,7 @@
     "desc" : "A direct sales SaaS I created for my wife in 2016, to help her manage her direct sales inventory, client purchases, and associated shipping labels. Launched closed private beta within 6 months.",
     "long_desc": "",
     "meta": [
-      "aws",
-      "facebook",
-      "react",
-      "php",
-      "laravel",
-      "vue",
-      "mariadb"
+      "aws", "facebook", "laravel", "mariadb", "php", "react", "vue"
     ],
     "highlights" : [
       "Custom claiming system",
@@ -430,16 +373,7 @@
     "github_link" : "https://github.com/jaketoolson/travelr/",
     "github_raw_readme_link" : "https://raw.githubusercontent.com/jaketoolson/travelr/master/README.MD",
     "meta": [
-      "aws",
-      "ubuntu",
-      "mysql",
-      "javascript",
-      "backbone",
-      "handlebars",
-      "php",
-      "ios",
-      "laravel",
-      "vue"
+      "aws", "backbone", "handlebars", "ios", "javascript", "laravel", "mysql", "php", "ubuntu", "vue"
     ],
     "links" : [
       {
