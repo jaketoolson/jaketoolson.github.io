@@ -29,7 +29,9 @@
         "url" : "https://gitlab.com/brooklyns/platform"
       }
     ],
-    "images" : [],
+    "images" : [
+      "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/brooklyns.jpg"
+    ],
     "highlights" : [],
     "meta": [
       "cluster", "docker", "express", "laravel", "mariadb", "nginx", "node", "php", "react", "redis", "typescript", "vite"
