@@ -118,7 +118,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "docker", "laravel", "nginx", "node", "php", "react", "typescript"
+      "docker", "hapi", "laravel", "nginx", "node", "php", "react", "typescript"
     ],
     "technologies" : [
       "PHP",
@@ -147,6 +147,14 @@
         "url" : "https://gitlab.com/orion_co/supply/services/gateway"
       },
       {
+        "title":"Orders Service (Legacy)",
+        "url" :"https://gitlab.com/orion_co/supply/services/orders"
+      },
+      {
+        "title" : "Orders ACL",
+        "url" : "https://gitlab.com/orion_co/supply/services/orders-acl"
+      },
+      {
         "title":"Inventory Service",
         "url" :"https://gitlab.com/orion_co/supply/services/inventory"
       },
@@ -155,20 +163,16 @@
         "url" : "https://gitlab.com/orion_co/supply/services/assets"
       },
       {
-        "title":"Orders Service (Legacy)",
-        "url" :"https://gitlab.com/orion_co/supply/services/orders"
-      },
-      {
-        "title" : "Orders ACL",
-        "url" : "https://gitlab.com/orion_co/supply/services/orders-acl"
-      },
-            {
         "title" : "Product Service",
         "url" : "https://gitlab.com/orion_co/supply/services/product"
       }
     ],
     "images" : [],
-    "highlights" : [],
+    "highlights" : [
+      "The backend services originally started as bounded contexts and were extracted into its own service",
+      "The backend services use UseCase layers",
+      "The objective the assets service is to serve files used by multiple services - images, videos, documents, etc"
+    ],
     "meta": [
       "docker", "hapi", "laravel", "nginx", "node", "php", "react", "sqlite", "typescript"
     ],
