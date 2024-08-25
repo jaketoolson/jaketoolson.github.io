@@ -27,6 +27,10 @@
       {
         "title" : "Platform Service",
         "url" : "https://gitlab.com/brooklyns/platform"
+      },
+      {
+        "title" : "Terraform AWS IaC",
+        "url" : "https://gitlab.com/brooklyns/infrastructure"
       }
     ],
     "images" : [
@@ -34,7 +38,7 @@
     ],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "express", "laravel", "mariadb", "nginx", "node", "php", "react", "redis", "typescript", "vite"
+      "cluster", "docker", "express", "laravel", "mariadb", "nginx", "node", "php", "react", "redis", "terraform", "typescript", "vite"
     ],
     "technologies" : [
       "PHP/Laravel",
@@ -44,7 +48,8 @@
       "Typescript",
       "React Query",
       "NODE.js",
-      "Express"
+      "Express",
+      "Terraform"
     ]
   },
   {
