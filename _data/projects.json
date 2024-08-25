@@ -4,7 +4,7 @@
     "title" : "BROOKLYNS",
     "permalink" : "/projects/brooklyns.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/brooklyns.jpg",
-    "desc" : "08/22/2024 -- (WIP) -- A professional healthcare platform that connects Clinicians with Patients.  The goal is to create a multi-clustered environment, allowing separate portals for Clinicians and Patients.  Integrations will be independent services that proxy to the backend for data ingestion and transfer. ",
+    "desc" : "A professional healthcare platform that connects Clinicians with Patients.  The goal is to create a multi-clustered environment, allowing separate portals for Clinicians and Patients.  Integrations will be independent services that proxy to the backend for data ingestion and transfer. ",
     "long_desc": "",
     "github_link" : "https://gitlab.com/brooklyns/foundation",
     "links" : [
