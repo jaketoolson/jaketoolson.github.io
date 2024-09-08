@@ -16,14 +16,13 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "expo",  "h3", "laravel", "mariadb", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
+      "cluster", "docker", "expo",  "h3", "laravel", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
     ],
     "technologies" : [
       "PHP/Laravel",
       "React",
       "Expo",
       "H3 Indexes",
-      "MARIADB",
       "Vite",
       "Typescript",
       "React Query",
