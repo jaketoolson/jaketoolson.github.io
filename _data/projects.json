@@ -1,5 +1,39 @@
 [
   {
+    "name" : "COBRA",
+    "title" : "COBRA",
+    "permalink" : "/projects/cobra.html",
+    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/cobra.jpg",
+    "desc" : "A mobile application for door to door sales, with a web portal for managing options and features.",
+    "long_desc": "",
+    "github_link" : "https://gitlab.com/orionco/canvassing/foundation",
+    "links" : [
+      {
+        "title" : "Home",
+        "url" : "https://gitlab.com/orionco/canvassing/foundation"
+      },
+    ],
+    "images" : [
+      "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/cobra.jpg"
+    ],
+    "highlights" : [],
+    "meta": [
+      "cluster", "docker", "laravel", "mariadb", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
+    ],
+    "technologies" : [
+      "PHP/Laravel",
+      "React",
+      "MARIADB",
+      "Vite",
+      "Typescript",
+      "React Query",
+      "MetaBase",
+      "Postgres/Postgis",
+      "React Native",
+      "Redis",
+    ]
+  },
+  {
     "name" : "BROOKLYNS",
     "title" : "BROOKLYNS",
     "permalink" : "/projects/brooklyns.html",
