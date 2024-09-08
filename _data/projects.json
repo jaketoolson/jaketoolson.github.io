@@ -4,7 +4,7 @@
     "title" : "COBRA",
     "permalink" : "/projects/cobra.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/cobra.jpg",
-    "desc" : "A mobile application for door to door sales, with a web portal for managing options and features.  Geospatial data is stored and queried using PostGIS, and has backend clustering using H3 indexes.",
+    "desc" : "A SAAS with a web and mobile client used for door to door sales.  Geospatial data is stored and queried using PostGIS, and has backend clustering using H3 indexes.",
     "long_desc": "",
     "github_link" : "https://gitlab.com/orionco/canvassing/foundation",
     "links" : [
