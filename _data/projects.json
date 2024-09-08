@@ -18,11 +18,12 @@
     ],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "laravel", "mariadb", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
+      "cluster", "docker", "expo", "laravel", "mariadb", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
     ],
     "technologies" : [
       "PHP/Laravel",
       "React",
+      "Expo",
       "MARIADB",
       "Vite",
       "Typescript",
