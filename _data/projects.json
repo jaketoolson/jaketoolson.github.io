@@ -13,9 +13,7 @@
         "url" : "https://gitlab.com/orionco/canvassing/foundation"
       },
     ],
-    "images" : [
-      "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/cobra.jpg"
-    ],
+    "images" : [],
     "highlights" : [],
     "meta": [
       "cluster", "docker", "expo", "laravel", "mariadb", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
