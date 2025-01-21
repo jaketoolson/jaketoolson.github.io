@@ -4,7 +4,7 @@
     "title" : "GAMEBITES",
     "permalink" : "/projects/gamebites.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/gamebites.jpg",
-    "desc" : "A Sports Fan Mobile Application.  I'm using the service discovery pattern with Consul as the registry, to connect the microservices and API gateway.",
+    "desc" : "A Sports Fan Mobile Application.  The app connects fans to their sports team and concession stand.",
     "long_desc": "Some basic things here: authentication, SOA (modular), events, command bus, repository. Backend API is a faux API Gateway :) \n\nIn terms of authentication, it's basic email/password with JWT bearer tokens, OAUTH will be added.\n\nFor the backend, I'm using a basic service discovery pattern with Consul as the registry.  I’d like to add a simple circuit breaker that switches to another provider automatically if the current one goes offline—but I haven’t implemented that yet.",
     "github_link" : "https://gitlab.com/gamebites/foundation",
     "links" : [
