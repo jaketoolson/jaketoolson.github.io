@@ -5,7 +5,7 @@
     "permalink" : "/projects/gamebites.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/gamebites.jpg",
     "desc" : "A Sports Fan Mobile Application.  I'm using the service discovery pattern with Consul as the registry, to connect the microservices and API gateway.",
-    "long_desc": "Some basic things here: authentication, SOA (modular), events, command bus, repository. In its current state, I want to rework the backend platform to act more like an API gateway. To do that, I’m actively porting the sports-data module over to its own microservice using Node.js, TypeScript, TypeORM, and Redis.\n\nIn terms of authentication, it's basic email/password with JWT bearer tokens, OAUTH will be added.\nFor the backend, my main concern was 'what would happen if the 3rd-party sports data provider went down', leaving the app unusable. To address this, I’m experimenting with a basic strategy pattern that would let me toggle between different sports data providers dynamically (controlled via a database). Eventually, I’d like to add a simple circuit breaker that switches to another provider automatically if the current one goes offline—but I haven’t implemented that yet.\n\nNotes\nI’m also planning to incorporate service discovery so this microservice can report its availability/discoverability. The API gateway would then use that information to connect etc.\n\nThis is all still a work in progress—just ideas and challenges I’ve been exploring. I wanted to write some code to answer my own questions. 😊 I might have time to throw some IAC in here as well.\n\nI'll roll this repo into my little portfolio of items where I throw ideas around. No intention of finishing but rather, I showcase these things off in their active, never-ending, sandbox state."
+    "long_desc": "Some basic things here: authentication, SOA (modular), events, command bus, repository. In its current state, I want to rework the backend platform to act more like an API gateway. To do that, I’m actively porting the sports-data module over to its own microservice using Node.js, TypeScript, TypeORM, and Redis.\n\nIn terms of authentication, it's basic email/password with JWT bearer tokens, OAUTH will be added.\nFor the backend, my main concern was 'what would happen if the 3rd-party sports data provider went down', leaving the app unusable. To address this, I’m experimenting with a basic strategy pattern that would let me toggle between different sports data providers dynamically (controlled via a database). Eventually, I’d like to add a simple circuit breaker that switches to another provider automatically if the current one goes offline—but I haven’t implemented that yet.\n\nNotes\nI’m also planning to incorporate service discovery so this microservice can report its availability/discoverability. The API gateway would then use that information to connect etc.\n\nThis is all still a work in progress—just ideas and challenges I’ve been exploring. I wanted to write some code to answer my own questions. 😊 I might have time to throw some IAC in here as well.\n\nI'll roll this repo into my little portfolio of items where I throw ideas around. No intention of finishing but rather, I showcase these things off in their active, never-ending, sandbox state.",
     "github_link" : "https://gitlab.com/gamebites/foundation",
     "links" : [
       {
@@ -38,7 +38,7 @@
       "React Query",
       "Postgres",
       "React Native",
-      "Redis",
+      "Redis"
     ]
   },
   {
@@ -53,7 +53,7 @@
       {
         "title" : "Home",
         "url" : "https://gitlab.com/orionco/canvassing/foundation"
-      },
+      }
     ],
     "images" : [],
     "highlights" : [],
@@ -71,7 +71,7 @@
       "MetaBase",
       "Postgres/Postgis",
       "React Native",
-      "Redis",
+      "Redis"
     ]
   },
   {
@@ -110,7 +110,7 @@
     ],
     "images" : [
       "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/screenshots/brooklyns_1.jpeg",
-      "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/screenshots/brooklyns_2.jpeg",
+      "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/screenshots/brooklyns_2.jpeg"
     ],
     "highlights" : [],
     "meta": [
