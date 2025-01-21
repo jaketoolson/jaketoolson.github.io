@@ -4,7 +4,7 @@
     "title" : "GAMEBITES",
     "permalink" : "/projects/GAMEBITES.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/gamebites.jpg",
-    "desc" : "A SAAS with a web and mobile client used for door to door sales.  Geospatial data is stored and queried using PostGIS, and has backend clustering using H3 indexes.",
+    "desc" : "A Sports Fan Mobile Application.  The backend API connects to the Sports Data micro service, using Consul service discovery",
     "long_desc": "",
     "github_link" : "https://gitlab.com/gamebites/foundation",
     "links" : [
@@ -12,11 +12,23 @@
         "title" : "Home",
         "url" : "https://gitlab.com/gamebites/foundation"
       },
+      {
+        "title" : "API",
+        "url" : "https://gitlab.com/gamebites/platform"
+      },
+      {
+        "title" : "Sports Data Service",
+        "url" : "https://gitlab.com/gamebites/sportsdataservice"
+      },
+      {
+        "title": "Mobile",
+        "url":"https://gitlab.com/gamebites/mobile"
+      }
     ],
     "images" : [],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "expo", "laravel", "nginx",  "php", "react-native", "postgres", "redis", "typescript", "express"
+      "cluster", "docker", "expo", "laravel", "nginx",  "php", "consul", "react-native", "postgres", "redis", "typescript", "express"
     ],
     "technologies" : [
       "PHP/Laravel",
