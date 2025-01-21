@@ -4,7 +4,7 @@
     "title" : "GAMEBITES",
     "permalink" : "/projects/gamebites.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/gamebites.jpg",
-    "desc" : "A Sports Fan Mobile Application.  The backend API connects to the Sports Data micro service, using Consul service discovery",
+    "desc" : "A Sports Fan Mobile Application.  I'm using the service discovery pattern with Consul as the registry, to connect the microservices and API gateway.",
     "long_desc": "",
     "github_link" : "https://gitlab.com/gamebites/foundation",
     "links" : [
@@ -33,6 +33,7 @@
     "technologies" : [
       "PHP/Laravel",
       "Expo",
+      "Consul",
       "Typescript",
       "React Query",
       "Postgres",
