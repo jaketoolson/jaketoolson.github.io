@@ -2,7 +2,7 @@
   {
     "name" : "GAMEBITES",
     "title" : "GAMEBITES",
-    "permalink" : "/projects/GAMEBITES.html",
+    "permalink" : "/projects/gamebites.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/gamebites.jpg",
     "desc" : "A Sports Fan Mobile Application.  The backend API connects to the Sports Data micro service, using Consul service discovery",
     "long_desc": "",
