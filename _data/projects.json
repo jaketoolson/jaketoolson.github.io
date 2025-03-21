@@ -42,39 +42,6 @@
     ]
   },
   {
-    "name" : "COBRA",
-    "title" : "COBRA",
-    "permalink" : "/projects/cobra.html",
-    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/cobra.jpg",
-    "desc" : "A SAAS with a web and mobile client used for door to door sales.  Geospatial data is stored and queried using PostGIS, and has backend clustering using H3 indexes.",
-    "long_desc": "",
-    "github_link" : "https://gitlab.com/orionco/canvassing/foundation",
-    "links" : [
-      {
-        "title" : "Home",
-        "url" : "https://gitlab.com/orionco/canvassing/foundation"
-      }
-    ],
-    "images" : [],
-    "highlights" : [],
-    "meta": [
-      "cluster", "docker", "expo",  "h3", "laravel", "nginx",  "php", "react", "react-native", "metabase", "postgres", "postgis", "redis", "terraform", "typescript", "vite"
-    ],
-    "technologies" : [
-      "PHP/Laravel",
-      "React",
-      "Expo",
-      "H3 Indexes",
-      "Vite",
-      "Typescript",
-      "React Query",
-      "MetaBase",
-      "Postgres/Postgis",
-      "React Native",
-      "Redis"
-    ]
-  },
-  {
     "name" : "BROOKLYNS",
     "title" : "BROOKLYNS",
     "permalink" : "/projects/brooklyns.html",
