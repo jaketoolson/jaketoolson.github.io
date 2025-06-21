@@ -16,6 +16,10 @@
         "title" : "API",
         "url" : "https://gitlab.com/noodl/platform"
       },
+              {
+        "title" : "NEST JS API",
+        "url" : "https://gitlab.com/noodl/nest_platform"
+      },
       {
         "title": "Mobile",
         "url":"https://gitlab.com/noodl/mobile"
