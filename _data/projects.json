@@ -33,6 +33,8 @@
     "technologies" : [
       "PHP/Laravel",
       "Expo",
+    "NestJS",
+        "TypeORM",
       "Typescript",
       "React Query",
       "Postgres",
