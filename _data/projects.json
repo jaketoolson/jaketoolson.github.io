@@ -28,7 +28,7 @@
     "images" : [],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "expo", "laravel", "nginx",  "php", "react-native", "postgres", "redis", "typescript", "express"
+      "cluster", "docker", "expo", "laravel", "nest", "typeorm", "nginx",  "php", "react-native", "postgres", "redis", "typescript", "express"
     ],
     "technologies" : [
       "PHP/Laravel",
