@@ -2,7 +2,7 @@
     {
     "name" : "NOODL",
     "title" : "NOODL",
-    "permalink" : "/projects/noodlr.html",
+    "permalink" : "/projects/noodl.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/noodle_github.png",
     "desc" : "An app that where events bring people together",
     "long_desc": "In 2005 I created an app out of frustration.  At the time, I would ride downhill mountain bikes wiht my friends, and trying to coordinate to determine who can make it, who is driving, and where were going was a headache.  So the app I created was used to plan events and show who was attending",
