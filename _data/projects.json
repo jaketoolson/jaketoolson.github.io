@@ -4,7 +4,7 @@
     "title" : "NOODL",
     "permalink" : "/projects/noodl.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/noodle_github.png",
-    "desc" : "An app that where events bring people together. Back in 2005, I built an app to tame the chaos of planning downhill mountain biking adventures with my friends. I’m remaking it with fresh energy to make organizing events easy! This app is designed to simplify coordinating who’s joining, and where we’re heading. With a sleek, modern interface, it lets us focus on ripping trails instead of wrestling with group chats.",
+    "desc" : "An app that where events bring people together. Back in 2005, I built an app to tame the chaos of planning downhill mountain biking adventures with my friends. I’m remaking it with fresh energy to make organizing events easy! This app is designed to simplify coordinating who’s joining, and where we’re heading.",
     "long_desc": "",
     "github_link" : "https://gitlab.com/noodl/foundation",
     "links" : [
