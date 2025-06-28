@@ -56,11 +56,11 @@
         "url" : "https://gitlab.com/quilt2/foundation"
       },
       {
-        "title" : "API",
+        "title" : "API Gateway",
         "url" : "https://gitlab.com/quilt2/apigateway"
       },
       {
-        "title" : "Services",
+        "title" : "Backend Services",
         "url" : "https://gitlab.com/quilt2/foundation/-/tree/main/services?ref_type=heads"
       },
       {
