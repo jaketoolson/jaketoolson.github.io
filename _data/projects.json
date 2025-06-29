@@ -1,9 +1,9 @@
 [
-    {
-    "name" : "NOODL",
-    "title" : "NOODL",
-    "permalink" : "/projects/noodl.html",
-    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/noodle_github.png",
+     {
+    "name" : "CHORTLE",
+    "title" : "CHORTLE",
+    "permalink" : "/projects/chortle.html",
+    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/chortle.png",
     "desc" : "An app where events bring people together. Back in 2005, I built an app to tame the chaos of planning downhill mountain biking adventures with my friends. I’m remaking it with fresh energy to make organizing events easy!",
     "long_desc": "",
     "github_link" : "https://gitlab.com/noodl/foundation",
@@ -42,11 +42,11 @@
       "Redis"
     ]
   },
-     {
-    "name" : "CHORTLE",
-    "title" : "CHORTLE",
-    "permalink" : "/projects/chortle.html",
-    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/chortle.png",
+    {
+    "name" : "NOODL",
+    "title" : "NOODL",
+    "permalink" : "/projects/noodl.html",
+    "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/noodle_github.png",
     "desc" : "An app where events bring people together. Back in 2005, I built an app to tame the chaos of planning downhill mountain biking adventures with my friends. I’m remaking it with fresh energy to make organizing events easy!",
     "long_desc": "",
     "github_link" : "https://gitlab.com/noodl/foundation",
