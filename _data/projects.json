@@ -13,33 +13,32 @@
         "url" : "https://gitlab.com/noodl/foundation"
       },
       {
-        "title" : "Laravel PHP API",
+        "title" : "API Gateway",
         "url" : "https://gitlab.com/noodl/platform"
       },
               {
-        "title" : "NEST JS API",
+        "title" : "LLM Provider",
         "url" : "https://gitlab.com/noodl/nest_platform"
       },
       {
-        "title": "Mobile",
+        "title": "Agent Orchestrator",
         "url":"https://gitlab.com/noodl/mobile"
       }
     ],
     "images" : [],
     "highlights" : [],
     "meta": [
-      "cluster", "docker", "expo", "laravel", "nest", "typeorm", "nginx",  "php", "react-native", "postgres", "redis", "typescript", "express"
+      "cluster", "docker", "python", "node", "chromadb", "langchain", "langgraph", "fastapi"
     ],
     "technologies" : [
-      "PHP/Laravel",
-      "Expo",
-    "NestJS",
-        "TypeORM",
-      "Typescript",
-      "React Query",
-      "Postgres",
-      "React Native",
-      "Redis"
+         "Python",
+         "Docker",
+         "Node",
+         "ChromaDB",
+         "FastAPI",
+         "Fastify",
+         "LangGraph",
+         "LangChain""
     ]
   },
     {
