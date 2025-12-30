@@ -1,11 +1,11 @@
-[
+a[
      {
     "name" : "CHORTLE",
     "title" : "CHORTLE",
     "permalink" : "/projects/chortle.html",
     "img_card_src" : "https://raw.githubusercontent.com/jaketoolson/jaketoolson.github.io/master/images/chortle.png",
     "desc" : "Your Friendly SQL Agent",
-    "long_desc": "I want to play around with a SQL agent that can be installed in any platform. \n Chortle is a multi-tenant Natural Language to SQL (NL2SQL) platform that allows non-technical users to query databases using plain English. It's designed as a B2B SaaS product where organizations can connect their own databases and enable their teams to get data insights without writing SQL.",
+    "long_desc": "I want to play around with a SQL agent that can be used as a service and injected into in any database. <br /> Chortle is a multi-tenant Natural Language to SQL (NL2SQL) platform that allows non-technical users to query databases using plain English. It's designed as a B2B SaaS product where organizations can connect their own databases and enable their teams to get data insights without writing SQL.",
     "github_link" : "https://gitlab.com/noodl/foundation",
     "links" : [
       {
