@@ -38,7 +38,7 @@
          "FastAPI",
          "Fastify",
          "LangGraph",
-         "LangChain""
+         "LangChain",
     ]
   },
     {
