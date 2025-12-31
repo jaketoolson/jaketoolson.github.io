@@ -10,23 +10,21 @@
     "links" : [
       {
         "title" : "Home",
-        "url" : "https://gitlab.com/noodl/foundation"
+        "url" : "https://askchortle.com"
       },
-      {
-        "title" : "API Gateway",
-        "url" : "https://gitlab.com/noodl/platform"
-      },
-              {
-        "title" : "LLM Provider",
-        "url" : "https://gitlab.com/noodl/nest_platform"
-      },
-      {
-        "title": "Agent Orchestrator",
-        "url":"https://gitlab.com/noodl/mobile"
-      }
     ],
     "images" : [],
-    "highlights" : [],
+    "highlights" : [
+      "I have 8 services powering this:",
+"API Gatway - Single entry point for auth/rate-limiting. Keeps security concerns separate. MY FAVORITE LAYER!",
+"Agent Orchestrator - Uses LangGraph to orchestrate the workflow: - Fetch schema → Fetch examples → Generate SQL → Execute → Handle errors (retry up to 3x) ",
+"Schema Registry - The LLM needs to know table/column names to write SQL. This service formats schema metadata into prompts.",
+"Query Executor - Security isolation. Only allows SELECT, enforces timeouts and row limits. Never runs DELETE/UPDATE. ",
+"LLM Provider - Swap LLM providers without changing other services.",
+"InHouse LLM Model Service",
+"Vector Store - RAG pattern. Stores example questions + their SQL so similar questions get better results",
+"Tenant MAnager - Store tenant databases, API keys, and query history and collects all interactions between services and stores them.",
+    ],
     "meta": [
       "cluster", "docker", "python", "node", "chromadb", "langchain", "langgraph", "fastapi"
     ],
